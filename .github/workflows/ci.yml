@@ -16,5 +16,5 @@ jobs:
       with:
         java-version: '20'
         distribution: 'temurin'
-    - run: chmod +x build.sh && ./build.sh
+    - run: java --version && sh build.sh
       shell: sh
